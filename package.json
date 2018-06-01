@@ -1,0 +1,21 @@
+{
+  "name": "api-koa-postgres",
+  "version": "1.0.0",
+  "description": "restful api with koa and postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/routes.index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "knex": "^0.14.6",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mocha": "^5.2.0",
+    "pg": "^7.4.3"
+  }
+}
